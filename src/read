@@ -1,0 +1,9 @@
+sprints
+
+2. create cards with view account and modal with route account
+3. add route to personal information |
+ -add modal to validate account and if yes,
+ -show modal when i can upload image to validate, if all its good, 
+ -show toast notification that is good !
+ -and add modal to ask to delete account.
+4. 

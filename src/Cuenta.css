@@ -1,0 +1,128 @@
+
+.title_cuenta_viewAccount{
+        
+    
+    position: relative;
+   /*  width: 1182px;
+    height: 47px;
+    left: 64px; */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    
+    /* or 111% */
+    color: #000000;
+    }
+
+.user_and_email_ofuser{
+    
+   /*  width: 385px; */
+   /*  height: 27px; */
+    
+    
+    position: relative;
+   /*  width: 385px;
+    height: 27px;
+    left: 64px; */
+   /*  top: 279px;  */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    /* identical to box height */
+    
+    color: #000000;
+    }
+   
+
+.buttons > button{
+    margin: 10px;
+    width: 74px;
+    height: 30px;
+/*     background-color: white;
+ *//*     border: 1px solid #bcbcbc;
+ */    border-radius: 30px;
+    cursor: pointer;
+    border-radius: 4px !important;
+    animation: transform 500ms;
+}
+.buttons > button:hover{
+    transform: scale(1.1);
+}
+
+
+.box_allCards_mainContent{
+    position: relative;
+    padding: 40px;
+}
+
+.Cuenta{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin-top: 34px;
+  }
+/* code for the popup validate. */
+
+.container_index_validateAccount{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box_descripttive_continuos{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.button_confirm_popupValidate{
+    color: white;
+    background-color: green !important;
+    border-radius: 4px !important;
+    border: 1px solid transparent;
+}
+
+
+
+@media (max-width: 1160px ){
+        
+        .Cuenta{
+            display: flex;
+            justify-content: space-around;
+        }
+}
+  
+
+@media (max-width: 609px){
+
+    .title_cuenta_viewAccount{
+        font-size: 24px;
+    }
+    .user_and_email_ofuser{
+    font-size: 14px;
+
+    }
+    .Cuenta{
+
+    }
+    .box_allCards_mainContent{
+        padding: 20px;
+    }
+}
+
+
+.hidde{
+    display:none !important;
+  }
